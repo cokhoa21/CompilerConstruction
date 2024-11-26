@@ -1,0 +1,11 @@
+PROGRAM Test;
+VAR
+  x, y: INTEGER;
+  ch: CHAR;
+BEGIN
+  x := 10;
+  y := x + 20;
+  ch := 'A';
+  IF y > 15 THEN
+    CALL Print(x, y, ch);
+END.
