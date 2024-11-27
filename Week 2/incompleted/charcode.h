@@ -1,4 +1,4 @@
-/* 
+/*
  * @copyright (c) 2008, Hedspi, Hanoi University of Technology
  * @author Huu-Duc Nguyen
  * @version 1.0
@@ -7,13 +7,15 @@
 #ifndef __CHARCODE_H__
 #define __CHARCODE_H__
 
-typedef enum {
+typedef enum
+{
   CHAR_SPACE,
   CHAR_LETTER,
   CHAR_DIGIT,
   CHAR_PLUS,
   CHAR_MINUS,
   CHAR_TIMES,
+  CHAR_POWER,
   CHAR_SLASH,
   CHAR_LT,
   CHAR_GT,
